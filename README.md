@@ -4,8 +4,9 @@ c, DUT CS Course Programming Basis [[paper](https://drive.google.com/file/d/1pIb
 ## Project Overview
 This project is an implementation in C to support epidemic prevention and control in universities during the COV pandemic. The primary goal is to create a comprehensive and efficient system for managing and storing crucial information related to COV prevention and control within the university setting. The system can handle diverse data types, including personal student details, daily health reports, nucleic acid testing results, vaccination records, and leave applications.
 
-## Program Flowchart
-![Alt text](./img/flowchart.png)
+## Flowchart
+<img src="./img/flowchart.png" alt="flowchart" width="50%">
+
 
 ## Features
 1. **Student Info**: Stores and manages comprehensive details of students, including IDs, names, phone numbers, and email addresses.
@@ -16,7 +17,8 @@ This project is an implementation in C to support epidemic prevention and contro
 6. **Data Visualization**: Provides graphical statistical analysis for the maintained data.
 
 ## Outcomes
-![Alt text](./img/outcomes.png)
+<img src="./img/outcomes.png" alt="outcome" width="50%">
+
 
 ## Installation
 
