@@ -1,36 +1,32 @@
-# campus Epidemic Prevention System
+# campus Epidemic Prevention System [[project](https://github.com/yanhao5103233729/campusEpidemicPreventionSystem/) | [paper](https://github.com/yanhao5103233729/campusEpidemicPreventionSystem/) | [code](https://github.com/yanhao5103233729/campusEpidemicPreventionSystem/) | video]
 c, DUT CS Course Programming Basis
 
 ## Project Overview
-This project is a C implementation of a system meticulously designed to bolster epidemic prevention and control efforts within university campuses amid the COV pandemic. Its core objective is to establish a robust and streamlined platform for the effective management and secure storage of vital information pertinent to COV mitigation within educational institutions. The system adeptly handles a wide array of data types, encompassing personal student particulars, daily health assessments, results of nucleic acid tests, vaccination documentation, and leave requests – all critical elements in the context of the pandemic.
+This project is an implementation in C to support epidemic prevention and control in universities during the COV pandemic. The primary goal is to create a comprehensive and efficient system for managing and storing crucial information related to COV prevention and control within the university setting. The system can handle diverse data types, including personal student details, daily health reports, nucleic acid testing results, vaccination records, and leave applications.
 
-### Features
-Key features of this comprehensive system include intuitive data entry, precise search capabilities, seamless editing, secure deletion, efficient sorting mechanisms, insightful graphical statistical analyses, and a password-protected login, ensuring both functionality and security in this critical application.
+## Features
+1. **Management of Personal Student Information**: Stores and manages comprehensive details of students, including IDs, names, phone numbers, and email addresses.
+2. **Daily Health Report Tracking**: Monitors and records students' daily health conditions, including temperature and symptoms.
+3. **Nucleic Acid Test Result Management**: Manages and records the outcomes of nucleic acid tests.
+4. **Vaccination Record Maintenance**: Keeps detailed logs of students' vaccination data.
+5. **Leave Application Handling**: Processes and documents students' leave requests.
+6. **Data Analysis and Visualization**: Provides graphical statistical analysis for the maintained data.
 
-## User Guide
-### Pre-Run Setup
-- **Environment:** Windows 10 – Microsoft Visual C++ 2010 Express.
-- **Executable Path:** Can be run from any directory after unzipping the package.
-- **File Composition:** Main executable, `password.txt` (for password storage), `data.txt` (for storing student information).
+## Installation
 
-### Operating Instructions
-- **Login Interface:** Initial run sets default password to “123”. Subsequent runs require login with a maximum of three password attempts.
-- **Menu Interface:** Consists of three sections: “Edit”, “Statistics”, and “About”. Switch between them using T or t.
-- **Features:** Includes viewing student information, querying, editing, deleting personal information, sorting, adding various records, clearing data, and exiting the system.
-- **Statistical Information:** Presents nucleic acid tests, vaccinations, and leave applications in a bar chart format.
+### Prerequisites
+- [Microsoft Visual Studio 2010](https://visualstudio.microsoft.com/vs/older-downloads/)
 
-## Design and Implementation
-- **Structure Design:** Overall program logic flow, data description (structures, buffer strings, etc.), and module design.
-- **Data Processing:** Utilizes arrays, string operations, file I/O, and custom functions for data handling and storage.
-- **User Interface:** Basic console interface design using tabs for table-formatted output.
+### Steps
+1. Clone the repository
+2. Navigate to the project directory
+3. (Optional) Set up a virtual environment
+4. Install the required dependencies
 
-## Challenges and Solutions
-- **Table Design:** Utilizes tabs for table display in a text-only console, enhancing data presentation.
-- **Interface Aesthetics:** Improving the console interface appearance remains a challenge, aiming for more advanced interactive features like key inputs and mouse operations.
-
-## Performance and Limitations
-- **Stability:** The program runs stably with functionalities meeting the expectations.
-- **Areas for Improvement:** User interface design can be enhanced for better interaction and visual appeal.
+## Usage
+1. Compile the C program: ```-o campusEpidemicPreventionSystem main.cpp```
+2. Run the compiled executable: ```./campusEpidemicPreventionSystem```
+3. Follow the on-screen instructions for data management and analysis.
 
 ## Contributing
 Contributions to the project are welcome! Please follow these steps:
