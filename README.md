@@ -1,5 +1,5 @@
-# campus Epidemic Prevention System [[project](https://github.com/yanhao5103233729/campusEpidemicPreventionSystem/) | [paper](https://github.com/yanhao5103233729/campusEpidemicPreventionSystem/) | [code](https://github.com/yanhao5103233729/campusEpidemicPreventionSystem/) | video]
-c, DUT CS Course Programming Basis
+# campus Epidemic Prevention System
+c, DUT CS Course Programming Basis [[project](https://github.com/yanhao5103233729/campusEpidemicPreventionSystem/) | [paper](https://docs.google.com/document/d/1fuuG9OOcDicmhlZN50VLfGPwlPZ9app3/edit?usp=share_link&ouid=101335811464917368567&rtpof=true&sd=true/) | [code](https://github.com/yanhao5103233729/campusEpidemicPreventionSystem/) | video]
 
 ## Project Overview
 This project is an implementation in C to support epidemic prevention and control in universities during the COV pandemic. The primary goal is to create a comprehensive and efficient system for managing and storing crucial information related to COV prevention and control within the university setting. The system can handle diverse data types, including personal student details, daily health reports, nucleic acid testing results, vaccination records, and leave applications.
