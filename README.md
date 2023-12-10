@@ -4,13 +4,19 @@ c, DUT CS Course Programming Basis [ [paper](https://docs.google.com/document/d/
 ## Project Overview
 This project is an implementation in C to support epidemic prevention and control in universities during the COV pandemic. The primary goal is to create a comprehensive and efficient system for managing and storing crucial information related to COV prevention and control within the university setting. The system can handle diverse data types, including personal student details, daily health reports, nucleic acid testing results, vaccination records, and leave applications.
 
+## Program Flowchart
+![Alt text](URL_of_image "./img/flowchart.png")
+
 ## Features
-1. **Management of Personal Student Information**: Stores and manages comprehensive details of students, including IDs, names, phone numbers, and email addresses.
-2. **Daily Health Report Tracking**: Monitors and records students' daily health conditions, including temperature and symptoms.
-3. **Nucleic Acid Test Result Management**: Manages and records the outcomes of nucleic acid tests.
-4. **Vaccination Record Maintenance**: Keeps detailed logs of students' vaccination data.
-5. **Leave Application Handling**: Processes and documents students' leave requests.
-6. **Data Analysis and Visualization**: Provides graphical statistical analysis for the maintained data.
+1. **Student Info**: Stores and manages comprehensive details of students, including IDs, names, phone numbers, and email addresses.
+2. **Health Tracking**: Monitors and records students' daily health conditions, including temperature and symptoms.
+3. **Test Results**: Manages and records the outcomes of nucleic acid tests.
+4. **Vaccination Logs**: Keeps detailed logs of students' vaccination data.
+5. **Campus Leaving**: Processes and documents students' leave requests.
+6. **Data Visualization**: Provides graphical statistical analysis for the maintained data.
+
+## Outcomes
+![Alt text](URL_of_image "./img/outcomes.png")
 
 ## Installation
 
